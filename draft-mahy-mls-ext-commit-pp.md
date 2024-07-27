@@ -9,18 +9,18 @@ number:
 date:
 consensus: true
 v: 3
-area: SEC
-workgroup: MLS
+area: "Security"
+workgroup: "Messaging Layer Security"
 keyword:
  - external commits
  - pending proposals
 venue:
-  group: MLS WG
-  type: Working Group
-  mail: mls@ietf.org
-  arch: https://mailarchive.ietf.org/arch/browse/mls/
-  github: rohanmahy/mls-ext-commit-pp
-  latest: https://rohanmahy.github.io/mls-ext-commit-pp/draft-mls-ext-commit-pp.html
+  group: "Messaging Layer Security"
+  type: "Working Group"
+  mail: "mls@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/mls/"
+  github: "rohanmahy/mls-ext-commit-pp"
+  latest: "https://rohanmahy.github.io/mls-ext-commit-pp/draft-mahy-mls-ext-commit-pp.html"
 
 author:
  -
