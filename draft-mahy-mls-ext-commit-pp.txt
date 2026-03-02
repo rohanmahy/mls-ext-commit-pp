@@ -3,9 +3,9 @@
 
 
 Messaging Layer Security                                         R. Mahy
-Internet-Draft                                               6 July 2025
+Internet-Draft                                              2 March 2026
 Intended status: Informational                                          
-Expires: 7 January 2026
+Expires: 3 September 2026
 
 
  Including Pending Proposals in External Commits in the Messaging Layer
@@ -53,11 +53,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 7 January 2026.
+   This Internet-Draft will expire on 3 September 2026.
 
 Copyright Notice
 
-   Copyright (c) 2025 IETF Trust and the persons identified as the
+   Copyright (c) 2026 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -84,7 +84,6 @@ Table of Contents
    7.  References
      7.1.  Normative References
      7.2.  Informative References
-   Acknowledgments
    Author's Address
 
 1.  Introduction
@@ -255,19 +254,12 @@ Table of Contents
 
 7.1.  Normative References
 
-   [I-D.ietf-mimi-room-policy]
-              Mahy, R., "Room Policy for the More Instant Messaging
-              Interoperability (MIMI) Protocol", Work in Progress,
-              Internet-Draft, draft-ietf-mimi-room-policy-01, 2 March
-              2025, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              mimi-room-policy-01>.
-
    [I-D.ietf-mls-extensions]
               Robert, R., "The Messaging Layer Security (MLS)
               Extensions", Work in Progress, Internet-Draft, draft-ietf-
-              mls-extensions-07, 3 July 2025,
+              mls-extensions-08, 21 July 2025,
               <https://datatracker.ietf.org/doc/html/draft-ietf-mls-
-              extensions-07>.
+              extensions-08>.
 
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
@@ -289,19 +281,23 @@ Table of Contents
               Barnes, R., Hodgson, M., Kohbrok, K., Mahy, R., Ralston,
               T., and R. Robert, "More Instant Messaging
               Interoperability (MIMI) using HTTPS and MLS", Work in
-              Progress, Internet-Draft, draft-ietf-mimi-protocol-03, 3
-              March 2025, <https://datatracker.ietf.org/doc/html/draft-
-              ietf-mimi-protocol-03>.
+              Progress, Internet-Draft, draft-ietf-mimi-protocol-05, 20
+              October 2025, <https://datatracker.ietf.org/doc/html/
+              draft-ietf-mimi-protocol-05>.
+
+   [I-D.ietf-mimi-room-policy]
+              Mahy, R., "Room Policy for the More Instant Messaging
+              Interoperability (MIMI) Protocol", Work in Progress,
+              Internet-Draft, draft-ietf-mimi-room-policy-03, 18
+              December 2025, <https://datatracker.ietf.org/doc/html/
+              draft-ietf-mimi-room-policy-03>.
 
    [I-D.kohbrok-mls-leaf-operation-intents]
               Kohbrok, K., "Leaf Operation Intents", Work in Progress,
               Internet-Draft, draft-kohbrok-mls-leaf-operation-intents-
-              00, 3 July 2025, <https://datatracker.ietf.org/doc/html/
-              draft-kohbrok-mls-leaf-operation-intents-00>.
-
-Acknowledgments
-
-   TODO acknowledge.
+              01, 20 October 2025,
+              <https://datatracker.ietf.org/doc/html/draft-kohbrok-mls-
+              leaf-operation-intents-01>.
 
 Author's Address
 
