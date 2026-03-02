@@ -79,7 +79,7 @@ This problem is exacerbated in the More Instant Message Interoperability (MIMI) 
 In many architectures, an external policy enforcer can send external proposals to an MLS group.
 This could be relatively simple, as in an organization removing a compromised client, or a company removing the clients associated with an employee when she leaves the company.
 
-In more complicated scenarios, such as in MIMI room policy {{!I-D.ietf-mimi-room-policy}}, the policy enforcer might change the role of a participant to ban them, to prevent them from sending messages, or to remove their moderator privileges.
+In more complicated scenarios, such as in MIMI room policy {{?I-D.ietf-mimi-room-policy}}, the policy enforcer might change the role of a participant to ban them, to prevent them from sending messages, or to remove their moderator privileges.
 
 If an external commit occurs after the pending external proposals, the commit would usually exclude the pending proposals.
 The policy enforcer would have to resend the external proposals in the new epoch.
@@ -138,7 +138,3 @@ When present it indicates support for this extension.
 
 --- back
 
-# Acknowledgments
-{:numbered="false"}
-
-TODO acknowledge.
