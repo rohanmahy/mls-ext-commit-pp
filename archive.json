@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-11-15T03:44:29.385961+00:00",
+  "timestamp": "2026-11-17T05:39:51.486698+00:00",
   "repo": "rohanmahy/mls-ext-commit-pp",
   "labels": [
     {
@@ -49,6 +49,23 @@
       "color": "ffffff"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOLhfQ8c8AAAABf6tOeA",
+      "title": "-02: mimid has this problem; a few gaps",
+      "url": "https://github.com/rohanmahy/mls-ext-commit-pp/issues/1",
+      "state": "OPEN",
+      "author": "MarkAtwood",
+      "authorAssociation": "NONE",
+      "assignees": [],
+      "labels": [],
+      "body": "This came out of the remote MIMI interop table at the IETF 127 hackathon.\n\nmimid (a MIMI hub and follower) has the problem this draft solves. When an external commit arrives while proposals are pending, the hub can't let the joiner include them, so mimid refuses external commits until the pending proposals are committed. protocol-07 already gives the joiner the pending proposals with the GroupInfo (PendingProposal in \u00a75.6), so this draft is the missing half, and we would implement it if the WG takes it up.\n\nGaps we hit reading -02:\n\n1. RFC 9420 \u00a712.4.3.2 says an external Commit MUST NOT include proposals by reference. \u00a74 requires exactly that when the extension is required, but doesn't say it updates that rule, or how a receiver validates such a commit.\n2. Which proposals: \"all the pending proposals provided to it\". RFC 9420 limits what an external Commit may contain; which proposal types may be included by reference here, and what happens to the others?\n3. The GroupInfo provider can only pass on proposals it can read (PublicMessage). A joiner can't tell whether it got all of them; \u00a75.1 covers invalid proposals, not omitted ones. protocol-07's PendingProposal list would be a natural reference.\n4. SelfRemove is cited as Section 6.4 of mls-extensions; in -11 it's \u00a76.3.\n5. Typos: \"dilema\", \"a bundle a proposals\", \"validates by\" (\u00a75.2), \"at the time\" (\u00a75.1).\n",
+      "createdAt": "2026-11-17T04:00:25Z",
+      "updatedAt": "2026-11-17T04:00:25Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
   "pulls": []
 }
